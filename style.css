@@ -7,6 +7,39 @@
   box-sizing: border-box;
 }
 
+/* BOOTSTRAP */
+.container.container-bubba-publi{
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.container.container-bubba-logo{
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.container.container-bubba-nav{
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.container.container-bubba-newsAndFeed{
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.container.container-bubba-footer{
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+/* FIN DE BOOTSTRAP */
+
 /* INICIO DE CUERPO */
 body{
   font-family: 'GFS Didot', serif;
