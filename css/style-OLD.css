@@ -146,96 +146,13 @@ body{
 }
 /* FIN DE FEED */
 
-/* INICIO DE FOOTER */
-.footer{
-  background: rgb(245,245,245);
-  background: radial-gradient(circle, rgba(245,245,245,1) 19%, rgba(213,36,50,1) 54%, rgba(22,70,136,1) 85%);
-  padding: 20px;
-  text-align: center;
-}
-.logoFooter{
-  font-size: 3rem;
-  color: rgb(213, 36, 50);
-  text-shadow: black 2px 2px 4px;
-  text-decoration: none;
-}
-.logoFooter:hover{
-  text-decoration: none;
-  color: #164688;
-  height: 1rem;
-  left: 0;
-  letter-spacing: 5px;
-  text-align: center;
-  text-transform: uppercase;
-  width: 100%;
-  animation: move linear 2000ms infinite;
-  z-index: 2
-}
-
 .posiciones{
   text-shadow: none;
   font-size: xx-large;
   color: #aaa;
   --bs-table-striped-color: none;
 }
-@keyframes move{
-  0%{
-    text-shadow:
-    2px -2px 0 #da0641,
-    1.50px -1.50px 0 #da0641,
-    1px -1px 0 #da0641,
-    0.50px -0.50px 0 #da0641,
-    -2px 2px 0 #13f1fc,
-    -1.50px 1.50px 0 #13f1fc,
-    -1px 1px 0 #13f1fc,
-    -0.50px 0.50px 0 #13f1fc;
-    }
-    25%{
-    text-shadow:
-    -2px -2px 0 #13f1fc,
-    -1.50px -1.50px 0 #13f1fc,
-    -1px -1px 0 #13f1fc,
-    -0.50px -0.50px 0 #13f1fc,
-    2px 2px 0 #da0641,
-    1.50px 1.50px 0 #da0641,
-    1px 1px 0 #da0641,
-    0.50px 0.50px 0 #da0641;
-    }
-    50%{
-    text-shadow:
-    2px -2px 0 #da0641,
-    1.50px -1.50px 0 #da0641,
-    1px -1px 0 #da0641,
-    0.50px -0.50px 0 #da0641,
-    -2px 2px 0 #13f1fc,
-    -1.50px 1.50px 0 #13f1fc,
-    -1px 1px 0 #13f1fc,
-    -0.50px 0.50px 0 #13f1fc;
-    }
-    75%{
-    text-shadow:
-    -2px -2px 0 #13f1fc,
-    -1.50px -1.50px 0 #13f1fc,
-    -1px -1px 0 #13f1fc,
-    -0.50px -0.50px 0 #13f1fc,
-    2px 2px 0 #da0641,
-    1.50px 1.50px 0 #da0641,
-    1px 1px 0 #da0641,
-    0.50px 0.50px 0 #da0641;
-    }
-    100%{
-    text-shadow:
-    2px -2px 0 #da0641,
-    1.50px -1.50px 0 #da0641,
-    1px -1px 0 #da0641,
-    0.50px -0.50px 0 #da0641,
-    -2px 2px 0 #13f1fc,
-    -1.50px 1.50px 0 #13f1fc,
-    -1px 1px 0 #13f1fc,
-    -0.50px 0.50px 0 #13f1fc;
-    }
-  }
-/* FIN DE FOOTER */
+
 
 /* INICIO DE INTENTO DE RESPONSIVE */
 /* @media screen and (max-width: 700px) {

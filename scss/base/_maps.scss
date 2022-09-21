@@ -1,0 +1,22 @@
+$footer:(
+    bg-color: rgb(10, 10, 10),
+    alineacion-txt: center,
+);
+$logoFooter:(
+    tamanio-fuente: 3rem,
+    color-fuente: rgb(213, 36, 50),
+    txt-sombra: black 2px 2px 4px,
+    txt-deco: none,
+);
+$logoHover:(
+    txt-deco: none,
+    color-fuente: #164688,
+    alto: 1rem,
+    izquierda: 0,
+    espacio: 5px,
+    alineacion-txt: center,
+    transform-txt: uppercase,
+    ancho: 100%,
+    animacion: move linear 2000ms infinite,
+    ind: 2,
+);

@@ -1,0 +1,43 @@
+.footer {
+  background-color: rgb(10, 10, 10);
+  text-align: center;
+}
+
+.logoFooter {
+  font-size: 3rem;
+  color: rgb(213, 36, 50);
+  text-shadow: black 2px 2px 4px;
+  text-decoration: none;
+}
+.logoFooter:hover {
+  text-decoration: none;
+  color: #164688;
+  height: 1rem;
+  left: 0;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  animation: move linear 2000ms infinite;
+  z-index: 2;
+}
+
+@keyframes move {
+  0% {
+    text-shadow: 2px -2px 0 #da0641, 1.5px -1.5px 0 #da0641, 1px -1px 0 #da0641, 0.5px -0.5px 0 #da0641, -2px 2px 0 #13f1fc, -1.5px 1.5px 0 #13f1fc, -1px 1px 0 #13f1fc, -0.5px 0.5px 0 #13f1fc;
+  }
+  25% {
+    text-shadow: -2px -2px 0 #13f1fc, -1.5px -1.5px 0 #13f1fc, -1px -1px 0 #13f1fc, -0.5px -0.5px 0 #13f1fc, 2px 2px 0 #da0641, 1.5px 1.5px 0 #da0641, 1px 1px 0 #da0641, 0.5px 0.5px 0 #da0641;
+  }
+  50% {
+    text-shadow: 2px -2px 0 #da0641, 1.5px -1.5px 0 #da0641, 1px -1px 0 #da0641, 0.5px -0.5px 0 #da0641, -2px 2px 0 #13f1fc, -1.5px 1.5px 0 #13f1fc, -1px 1px 0 #13f1fc, -0.5px 0.5px 0 #13f1fc;
+  }
+  75% {
+    text-shadow: -2px -2px 0 #13f1fc, -1.5px -1.5px 0 #13f1fc, -1px -1px 0 #13f1fc, -0.5px -0.5px 0 #13f1fc, 2px 2px 0 #da0641, 1.5px 1.5px 0 #da0641, 1px 1px 0 #da0641, 0.5px 0.5px 0 #da0641;
+  }
+  100% {
+    text-shadow: 2px -2px 0 #da0641, 1.5px -1.5px 0 #da0641, 1px -1px 0 #da0641, 0.5px -0.5px 0 #da0641, -2px 2px 0 #13f1fc, -1.5px 1.5px 0 #13f1fc, -1px 1px 0 #13f1fc, -0.5px 0.5px 0 #13f1fc;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

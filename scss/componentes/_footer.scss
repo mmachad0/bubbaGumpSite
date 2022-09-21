@@ -1,0 +1,80 @@
+.footer{
+    background-color: map-get($footer, bg-color);
+    padding: map-get($footer, pad);
+    text-align: map-get($footer, alineacion-txt);
+}
+.logoFooter{
+    font-size: map-get($logoFooter, tamanio-fuente);
+    color: map-get($logoFooter, color-fuente);
+    text-shadow: map-get($logoFooter, txt-sombra);
+    text-decoration: map-get($logoFooter, txt-deco);
+    &:hover{
+        text-decoration: map-get($logoHover, txt-deco);
+        color: map-get($logoHover, color-fuente);
+        height: map-get($logoHover, alto);
+        left: map-get($logoHover, izquierda);
+        letter-spacing: map-get($logoHover, espacio);
+        text-align: map-get($logoHover, alineacion-txt);
+        text-transform: map-get($logoHover, transform-txt);
+        width: map-get($logoHover, ancho);
+        animation: map-get($logoHover, animacion);
+        z-index: map-get($logoHover, ind);
+    }
+}
+@keyframes move{
+    0%{
+      text-shadow:
+      2px -2px 0 #da0641,
+      1.50px -1.50px 0 #da0641,
+      1px -1px 0 #da0641,
+      0.50px -0.50px 0 #da0641,
+      -2px 2px 0 #13f1fc,
+      -1.50px 1.50px 0 #13f1fc,
+      -1px 1px 0 #13f1fc,
+      -0.50px 0.50px 0 #13f1fc;
+      }
+      25%{
+      text-shadow:
+      -2px -2px 0 #13f1fc,
+      -1.50px -1.50px 0 #13f1fc,
+      -1px -1px 0 #13f1fc,
+      -0.50px -0.50px 0 #13f1fc,
+      2px 2px 0 #da0641,
+      1.50px 1.50px 0 #da0641,
+      1px 1px 0 #da0641,
+      0.50px 0.50px 0 #da0641;
+      }
+      50%{
+      text-shadow:
+      2px -2px 0 #da0641,
+      1.50px -1.50px 0 #da0641,
+      1px -1px 0 #da0641,
+      0.50px -0.50px 0 #da0641,
+      -2px 2px 0 #13f1fc,
+      -1.50px 1.50px 0 #13f1fc,
+      -1px 1px 0 #13f1fc,
+      -0.50px 0.50px 0 #13f1fc;
+      }
+      75%{
+      text-shadow:
+      -2px -2px 0 #13f1fc,
+      -1.50px -1.50px 0 #13f1fc,
+      -1px -1px 0 #13f1fc,
+      -0.50px -0.50px 0 #13f1fc,
+      2px 2px 0 #da0641,
+      1.50px 1.50px 0 #da0641,
+      1px 1px 0 #da0641,
+      0.50px 0.50px 0 #da0641;
+      }
+      100%{
+      text-shadow:
+      2px -2px 0 #da0641,
+      1.50px -1.50px 0 #da0641,
+      1px -1px 0 #da0641,
+      0.50px -0.50px 0 #da0641,
+      -2px 2px 0 #13f1fc,
+      -1.50px 1.50px 0 #13f1fc,
+      -1px 1px 0 #13f1fc,
+      -0.50px 0.50px 0 #13f1fc;
+      }
+    }
