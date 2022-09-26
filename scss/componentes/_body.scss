@@ -1,0 +1,11 @@
+/* INICIO DE CUERPO */
+html{
+    margin: $sinMargen;
+    padding: $sinPad;
+}
+
+body{
+    font-family: map-get($body, fuente);
+    background-color: map-get($body, bg-color);
+}
+/* FIN DE CUERPO */

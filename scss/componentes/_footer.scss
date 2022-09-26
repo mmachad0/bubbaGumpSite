@@ -1,4 +1,5 @@
-.footer{
+/* INICIO DE FOOTER*/
+footer{
     background-color: map-get($footer, bg-color);
     padding: map-get($footer, pad);
     text-align: map-get($footer, alineacion-txt);
@@ -9,16 +10,16 @@
     text-shadow: map-get($logoFooter, txt-sombra);
     text-decoration: map-get($logoFooter, txt-deco);
     &:hover{
-        text-decoration: map-get($logoHover, txt-deco);
-        color: map-get($logoHover, color-fuente);
-        height: map-get($logoHover, alto);
-        left: map-get($logoHover, izquierda);
-        letter-spacing: map-get($logoHover, espacio);
-        text-align: map-get($logoHover, alineacion-txt);
-        text-transform: map-get($logoHover, transform-txt);
-        width: map-get($logoHover, ancho);
-        animation: map-get($logoHover, animacion);
-        z-index: map-get($logoHover, ind);
+        text-decoration: map-get($logoFooterHover, txt-deco);
+        color: map-get($logoFooterHover, color-fuente);
+        height: map-get($logoFooterHover, alto);
+        left: map-get($logoFooterHover, izquierda);
+        letter-spacing: map-get($logoFooterHover, espacio);
+        text-align: map-get($logoFooterHover, alineacion-txt);
+        text-transform: map-get($logoFooterHover, transform-txt);
+        width: map-get($logoFooterHover, ancho);
+        animation: map-get($logoFooterHover, animacion);
+        z-index: map-get($logoFooterHover, ind);
     }
 }
 @keyframes move{
@@ -78,3 +79,4 @@
       -0.50px 0.50px 0 #13f1fc;
       }
     }
+/* FIN DE FOOTER*/

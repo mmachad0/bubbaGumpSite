@@ -8,7 +8,7 @@ $logoFooter:(
     txt-sombra: black 2px 2px 4px,
     txt-deco: none,
 );
-$logoHover:(
+$logoFooterHover:(
     txt-deco: none,
     color-fuente: #164688,
     alto: 1rem,
@@ -19,4 +19,30 @@ $logoHover:(
     ancho: 100%,
     animacion: move linear 2000ms infinite,
     ind: 2,
+);
+$header:(
+    bg-color: rgb(245,245,245),
+    bg-gradiente: radial-gradient(circle, rgba(245,245,245,1) 19%, rgba(213,36,50,1) 54%, rgba(22,70,136,1) 85%),
+    pad: 1rem,
+    disp: flex,
+    justify: center,
+    align: center,
+);
+$logo:(
+    opacidad: 0.4,
+    transicion: all 0.5s ease,
+    transicion-moz: all 0.5s ease,
+    transicion-o: all 0.5s ease,
+    reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1))),
+);
+$logoHover:(
+    opacidadHover: 1,
+    reflectHover: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))),
+    sombra: 0px 0px 0px rgba(255,255,255,0.8),
+    sombra-moz: 0px 0px 0px rgba(255,255,255,0.8),
+    sombra-box: 0px 0px 0px rgba(255,255,255,0.8),
+);
+$body:(
+    bg-color: whitesmoke,
+    fuente: "GFS Didot" serif,
 );

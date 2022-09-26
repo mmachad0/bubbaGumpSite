@@ -1,0 +1,24 @@
+/* INICIO DE LOGO*/
+header{
+    background: map-get($header, bg-color);
+    background: map-get($header, bg-gradiente);
+    padding: map-get($header, pad);
+    display: map-get($header, disp);
+    justify-content: map-get($header, justify);
+    align-items: map-get($header, align);
+}
+.logo{
+    opacity: map-get($logo, opacidad);
+    -webkit-transition: map-get($logo, transicion);
+    -moz-transition: map-get($logo, transicion-moz);
+    -o-transition: map-get($logo, transicion-o);
+    -webkit-box-reflect: map-get($logo, reflect);
+    &:hover{
+        opacity: map-get($logoHover, opacidadHover);
+        -webkit-box-reflect: map-get($logoHover, reflectHover);
+        -webkit-box-shadow: map-get($logoHover, sombra);
+        -moz-box-shadow: map-get($logoHover, sombra-moz);
+        box-shadow: map-get($logoHover, sombra-box);
+    }
+}
+/* FIN DE LOGO */
