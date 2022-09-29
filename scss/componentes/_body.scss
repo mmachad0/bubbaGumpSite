@@ -8,4 +8,12 @@ body{
     font-family: map-get($body, fuente);
     background-color: map-get($body, bg-color);
 }
+
+.posiciones{
+    text-shadow: map-get($tablaTorneo, sombra);
+    font-size: map-get($tablaTorneo, tamanioLetra);
+    color: map-get($tablaTorneo, color);
+    --bs-table-striped-color: map-get($tablaTorneo, colorTabla);
+}
+  
 /* FIN DE CUERPO */

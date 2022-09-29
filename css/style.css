@@ -37,6 +37,13 @@ body {
   background-color: rgb(10, 10, 10);
 }
 
+.posiciones {
+  text-shadow: none;
+  font-size: large;
+  color: #aaa;
+  --bs-table-striped-color: map-get($tablaTorneo, colorTabla);
+}
+
 /* FIN DE CUERPO */
 .container.container-bubba-publi {
   margin-right: 0%;
