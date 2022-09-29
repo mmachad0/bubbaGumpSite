@@ -1,4 +1,10 @@
 /* INICIO DE FOOTER*/
+.container.container-bubba-footer{
+    margin-right: map-get($sinmyp, derecha);
+    margin-left: map-get($sinmyp, izquierda);
+    padding-right:  map-get($sinmyp, derecha);
+    padding-left: map-get($sinmyp, izquierda);
+}
 footer{
     background-color: map-get($footer, bg-color);
     padding: map-get($footer, pad);
@@ -80,3 +86,20 @@ footer{
       }
     }
 /* FIN DE FOOTER*/
+
+/* INICIO MEDIAS QUERYS */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+  .row, .header{
+    flex-direction: column;
+  }
+  .row, .menu{
+    flex-direction: column;
+    align-items: center;
+  }
+  .row, .frames{
+    flex-direction: column;
+  }
+}

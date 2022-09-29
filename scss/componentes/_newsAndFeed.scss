@@ -1,0 +1,47 @@
+.container.container-bubba-newsAndFeed{
+    margin-right: map-get($sinmyp, derecha);
+    margin-left: map-get($sinmyp, izquierda);
+    padding-right:  map-get($sinmyp, derecha);
+    padding-left: map-get($sinmyp, izquierda);
+}
+/* INICIO DE CLIMA Y NOTICIAS */
+.frames{  
+    display: flex;
+    flex-wrap: nowrap;
+}
+.news{
+    flex: 30%;
+    font-size: x-large;
+    color: rgb(10,10,10,1);
+    text-shadow: 0 0 15px rgb(255, 253, 253), 0 0 10px rgb(255, 255, 255);
+    background: rgb(245,245,245);
+    background: radial-gradient(circle, rgba(245,245,245,1) 19%, rgba(58,175,60,1) 54%, rgba(10,10,10,1) 85%);
+    padding: 20px;
+}
+/* FIN DE CLIMA Y NOTICIAS */
+  
+/* INICIO DE FEED */
+.main{
+    flex: 70%;
+    font-size: x-large;
+    color: rgb(58,175,60);
+    text-shadow: 0 0 15px grey, 0 0 10px grey;
+    background-color: rgb(10,10,10,1);  
+    padding: 20px;
+}
+.mainImg{
+    background-color: #aaa;
+    width: 100%;
+    padding: 0.5rem;
+}
+.mainContact{
+    flex: 70%;
+    margin-left: 13rem;
+    padding: 0;
+    font-size: x-large;
+    color: rgb(58,175,60);
+    text-shadow: 0 0 15px grey, 0 0 10px grey;
+    background-color: rgb(10,10,10,1);  
+    padding: 20px;
+}
+/* FIN DE FEED */

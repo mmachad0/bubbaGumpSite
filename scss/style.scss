@@ -1,7 +1,10 @@
 @import "base/variables.scss";
 @import "base/listas.scss";
 @import "base/maps.scss";
-@import "componentes/body";
-@import "componentes/header";
-@import "componentes/nav";
+@import "base/estilos.scss";
+@import "componentes/body.scss";
+@import "componentes/publicidad.scss";
+@import "componentes/header.scss";
+@import "componentes/nav.scss";
+@import "componentes/newsAndFeed.scss";
 @import "componentes/footer.scss";
