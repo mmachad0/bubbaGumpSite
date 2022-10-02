@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Equipo de futbol amateur en continua actividad y presencia en los torneos mas reconocidos de CABA y Gran Buenos Aires">
   <meta name="keywords" content="FUTBOL, FOOTBALL, AMIGOS, FRIENDS, TORNEOS, CABA, GBA, EQUIPO, TEAM">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="../img/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css">
   <title>Bubba Gump FC - Equipo de futbol amateur en continua actividad y presencia en los torneos mas reconocidos de CABA y Gran Buenos Aires - Amigos y Futbol</title>
 </head>
@@ -48,8 +49,6 @@
         <h2>Clima y noticias</h2>
         <h5>Tiempo en Bs As:</h5>
         <iframe width="425" height="500" src="https://embed.windy.com/embed2.html?lat=-34.606&lon=-58.451&detailLat=-34.555&detailLon=-58.488&width=425&height=500&zoom=11&level=surface&overlay=temp&product=ecmwf&menu=&message=true&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=true&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
-        <h5>Actualidad del deporte:</h5>
-        <iframe src="https://www.infobae.com/deportes/" name="deportes-infobae" scrolling="yes" width="425px" height="500px" style="border: 2px none #000000;"></iframe>
         <h5>Agenda deportiva:</h5>
         <iframe src="https://www.tycsports.com/agenda-deportiva-hoy.html" name="ole" scrolling="yes" width="425px" height="500px" style="border: 2px none #000000;"></iframe>
       </div>
@@ -58,11 +57,30 @@
     <!-- INICIO DE FEED -->
       <div class="main">
         <h1>Ultima fecha</h1>
-          <img src="../img/formacion_1-740x510.jpg" alt="img1">
-          <img src="../img/formacion_2-740x510.jpg" alt="img2">
-        <h1>Fecha anterior vs. Rival....</h1>
-          <img src="../img/formacion_2-740x510.jpg" alt="img3">
-          <img src="../img/logo-500x500.png" alt="img4">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/formacion_1-940.jpg" class="d-block w-100" alt="img1">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/formacion_2-940.jpg" class="d-block w-100" alt="img2">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/figura-1.jpg" class="d-block w-100" alt="bubbaLogo">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h2>Jugador del partido</h2>
+        <img class="mainImg" src="../img/figura-1.jpg" alt="laFigura">
+        <p>Nahuel Zapata (Zapa para los amigos) no paro de controlar todo el mediocampo, cortando todo ataque rival y generando situaciones tan claras que todas terminaban en gol. Bubba goleo gracias a el y sus defensores no conocieron a los delanteros rivales tambien gracias a el. Sin dudas, el mejor del partido fue el, Nahuel Zapata.</p>
       </div>
     </div>
     <!-- FIN DE FEED -->
@@ -74,6 +92,6 @@
     <!-- FIN DE FOOTER -->
 
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
