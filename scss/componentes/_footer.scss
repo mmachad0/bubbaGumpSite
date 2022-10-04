@@ -82,7 +82,9 @@ footer{
 /* FIN DE FOOTER*/
 
 /* INICIO MEDIAS QUERYS */
-@media screen and (max-width: 700px) {
+
+/* TABLET */
+@media screen and (max-width: 991.98px) {
   .row, .navbar {   
     flex-direction: column;
   }
@@ -95,5 +97,46 @@ footer{
   }
   .row, .frames{
     flex-direction: column;
+  }
+  .row, .news{
+    display: none;
+  }
+}
+/* BREAK 1 MOVILES */
+@media screen and (max-width: 767.98px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+  .row, .header{
+    flex-direction: column;
+  }
+  .row, .menu{
+    flex-direction: column;
+    align-items: center;
+  }
+  .row, .frames{
+    flex-direction: column;
+  }
+  .row, .news{
+    display: none;
+  }
+}
+/* BREAK 2 MOVILES */
+@media screen and (max-width: 575.98px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+  .row, .header{
+    flex-direction: column;
+  }
+  .row, .menu{
+    flex-direction: column;
+    align-items: center;
+  }
+  .row, .frames{
+    flex-direction: column;
+  }
+  .row, .news{
+    display: none;
   }
 }
