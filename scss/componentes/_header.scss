@@ -1,10 +1,4 @@
 /* INICIO DE LOGO*/
-.container.container-bubba-logo{
-    margin-right: map-get($sinmyp, derecha);
-    margin-left: map-get($sinmyp, izquierda);
-    padding-right:  map-get($sinmyp, derecha);
-    padding-left: map-get($sinmyp, izquierda);
-}
 header{
     background: map-get($header, bg-color);
     background: map-get($header, bg-gradiente);

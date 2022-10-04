@@ -7,6 +7,7 @@ html{
 body{
     font-family: map-get($body, fuente);
     background-color: map-get($body, bg-color);
+    --bs-body-font-family: map-get($body, fuente);
 }
 
 .posiciones{
@@ -15,5 +16,4 @@ body{
     color: map-get($tablaTorneo, color);
     --bs-table-striped-color: map-get($tablaTorneo, colorTabla);
 }
-  
 /* FIN DE CUERPO */

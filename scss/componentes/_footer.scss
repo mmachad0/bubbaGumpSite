@@ -1,10 +1,4 @@
 /* INICIO DE FOOTER*/
-.container.container-bubba-footer{
-    margin-right: map-get($sinmyp, derecha);
-    margin-left: map-get($sinmyp, izquierda);
-    padding-right:  map-get($sinmyp, derecha);
-    padding-left: map-get($sinmyp, izquierda);
-}
 footer{
     background-color: map-get($footer, bg-color);
     padding: map-get($footer, pad);

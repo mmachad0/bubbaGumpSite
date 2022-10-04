@@ -1,20 +1,16 @@
 /* INICIO BARRA DE NAVEGACION */
-.container.container-bubba-nav{
-    margin-right: map-get($sinmyp, derecha);
-    margin-left: map-get($sinmyp, izquierda);
-    padding-right:  map-get($sinmyp, derecha);
-    padding-left: map-get($sinmyp, izquierda);
-}
-.navbar{
+.navbar.miNavbar{
     display: flex;
     justify-content: center;
     background-color: rgb(10,10,10,1);
+    --bs-navbar-padding-x: 20px;
+    --bs-navbar-padding-y: 14px;
 }
 .menu{
     display: flex;
     list-style: none;
 }
-.navbar a{
+.navbar.miNavbar a{
     font-weight: bold;
     color: rgb(58,175,60);
     text-shadow: 0 0 15px grey, 0 0 10px grey;

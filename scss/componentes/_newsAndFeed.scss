@@ -1,9 +1,3 @@
-.container.container-bubba-newsAndFeed{
-    margin-right: map-get($sinmyp, derecha);
-    margin-left: map-get($sinmyp, izquierda);
-    padding-right:  map-get($sinmyp, derecha);
-    padding-left: map-get($sinmyp, izquierda);
-}
 /* INICIO DE CLIMA Y NOTICIAS */
 .frames{  
     display: flex;
@@ -43,5 +37,8 @@
     text-shadow: 0 0 15px grey, 0 0 10px grey;
     background-color: rgb(10,10,10,1);  
     padding: 20px;
+}
+.btn-primary{
+    @extend %boton;
 }
 /* FIN DE FEED */
