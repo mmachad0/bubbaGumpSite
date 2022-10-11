@@ -1,18 +1,13 @@
-/* INICIO BARRA DE NAVEGACION */
-.navbar.miNavbar{
-    display: flex;
-    justify-content: center;
+/* INICIO DE MI BARRA DE NAVEGACION */
+
+.nav.justify-content-center.miNavbar{
     background-color: rgb(10,10,10,1);
     --bs-navbar-padding-x: 20px;
     --bs-navbar-padding-y: 14px;
 }
-.menu{
-    display: flex;
-    list-style: none;
-}
-.navbar.miNavbar a{
+.nav.justify-content-center.miNavbar a{
     font-weight: bold;
-    color: rgb(58,175,60);
+    --bs-nav-link-color: rgb(58,175,60);
     text-shadow: 0 0 15px grey, 0 0 10px grey;
     padding: 14px 20px;
     text-decoration: none;
@@ -23,4 +18,8 @@
         color: rgb(10,10,10,1);
     }
 }
-/* FIN BARRA DE NAVEGACION */
+.nav-item.miItem{
+    padding: 0rem 1rem;
+}
+
+/* FIN DE MI BARRA DE NAVEGACION */
