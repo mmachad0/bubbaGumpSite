@@ -13,7 +13,6 @@
     padding: 20px;
 }
 /* FIN DE CLIMA Y NOTICIAS */
-  
 /* INICIO DE FEED */
 .main{
     flex: 70%;
@@ -28,17 +27,42 @@
     width: 100%;
     padding: 0.5rem;
 }
-.mainContact{
-    flex: 70%;
-    margin-left: 13rem;
-    padding: 0;
-    font-size: x-large;
-    color: rgb(58,175,60);
-    text-shadow: 0 0 15px grey, 0 0 10px grey;
-    background-color: rgb(10,10,10,1);  
-    padding: 20px;
+.main h1{
+    text-align: center;
 }
-.btn-primary{
+
+.flex-outer li,
+.flex-inner{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer > li > label,
+.flex-outer li p{
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner{
+  flex: 1 0 220px;
+}
+.flex-inner li{
+    width: 100px;
+}
+.flex-inner{
+    justify-content: space-between;
+}
+.flex-outer li button {
     @extend %boton;
+    margin-left: auto;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #333;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: .09em;
 }
+
 /* FIN DE FEED */

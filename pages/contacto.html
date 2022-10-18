@@ -45,72 +45,46 @@
     <!-- INICIO DE CLIMA Y NOTICIAS -->
     <div class="frames">
         <div class="news">
-            <h2>Clima y noticias</h2>
-            <h5>Tiempo en Bs As:</h5>
+            <h1>Clima y noticias</h1>
+            <h4>Tiempo en Bs As:</h4>
             <iframe width="425" height="500" src="https://embed.windy.com/embed2.html?lat=-34.606&lon=-58.451&detailLat=-34.555&detailLon=-58.488&width=425&height=500&zoom=11&level=surface&overlay=temp&product=ecmwf&menu=&message=true&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=true&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
-            <h5>Agenda deportiva:</h5>
+            <h1>Agenda deportiva:</h1>
             <iframe src="https://www.tycsports.com/agenda-deportiva-hoy.html" name="ole" scrolling="yes" width="425px" height="500px" style="border: 2px none #000000;"></iframe>
         </div>
     <!-- FIN DE CLIMA Y NOTICIAS -->
   
     <!-- INICIO DE FEED -->
-        <div class= "main">
-            <div class="mainContact">
-                <div class="container">
-                  <div class="row">
-                      <div class="col-md-12">
-                          <div class="well well-sm">
-                              <form class="form-horizontal" method="post">
-                                  <fieldset>
-                                      <legend class="text-center header">Contactanos</legend>
-              
-                                      <div class="form-group">
-                                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                          <div class="col-md-8">
-                                              <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
-                                          </div>
-                                      </div>
-                                      <div class="form-group">
-                                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                          <div class="col-md-8">
-                                              <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
-                                          </div>
-                                      </div>
-              
-                                      <div class="form-group">
-                                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                                          <div class="col-md-8">
-                                              <input id="email" name="email" type="text" placeholder="Mail" class="form-control">
-                                          </div>
-                                      </div>
-              
-                                      <div class="form-group">
-                                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                                          <div class="col-md-8">
-                                              <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
-                                          </div>
-                                      </div>
-              
-                                      <div class="form-group">
-                                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                                          <div class="col-md-8">
-                                              <textarea class="form-control" id="message" name="message" placeholder="Dejanos tus palabras de aliento, opinion, queja y/o recomendaciones.
-                                              ¡¡¡Vamos Bubba!!!" rows="7"></textarea>
-                                          </div>
-                                      </div>
-              
-                                      <div class="form-group">
-                                          <div class="col-md-12 text-center">
-                                              <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-                                          </div>
-                                      </div>
-                                  </fieldset>
-                              </form>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-            </div>
+        <div class="main">
+            <h1>Contactanos</h1>
+            <div class="container">
+                <form>
+                  <ul class="flex-outer">
+                    <li>
+                      <label for="first-name">Nombre:</label>
+                      <input type="text" id="first-name" placeholder="Ingresa tu nombre">
+                    </li>
+                    <li>
+                      <label for="last-name">Apellido:</label>
+                      <input type="text" id="last-name" placeholder="Ingresa tu apellido">
+                    </li>
+                    <li>
+                      <label for="email">Mail:</label>
+                      <input type="email" id="email" placeholder="Dejanos tu e-mail">
+                    </li>
+                    <li>
+                      <label for="phone">Teléfono:</label>
+                      <input type="tel" id="phone" placeholder="Dejanos tu nro de teléfono">
+                    </li>
+                    <li>
+                      <label for="message">Mensaje:</label>
+                      <textarea rows="6" id="message" placeholder="Dejanos tus palabras de aliento, dudas, quejas, recomendaciones, lo que desees. Vamos Bubba!!!"></textarea>
+                    </li>
+                    <li>
+                      <button type="submit">Enviar</button>
+                    </li>
+                  </ul>
+                </form>
+              </div>
             <a href="#" class="buttonArriba">
                 <i class="fa-solid fa-angle-right"></i>
                 IR ARRIBA

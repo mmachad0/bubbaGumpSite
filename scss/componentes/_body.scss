@@ -3,13 +3,11 @@ html{
     margin: $sinMargen;
     padding: $sinPad;
 }
-
 body{
     font-family: map-get($body, fuente);
     background-color: map-get($body, bg-color);
     --bs-body-font-family: map-get($body, fuente);
 }
-
 .posiciones{
     text-shadow: map-get($tablaTorneo, sombra);
     font-size: map-get($tablaTorneo, tamanioLetra);

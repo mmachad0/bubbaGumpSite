@@ -1,3 +1,4 @@
+/*VARIABLES*/ /* SIN LISTAS POR EL MOMENTO */ /*MAPAS*/
 .box {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -12,8 +13,11 @@
   padding: 5px;
   margin: 0;
 }
+.box:hover {
+  color: #164688;
+}
 
-.btn-primary, .boton {
+.flex-outer li button, .boton {
   font-size: 15px;
   font-family: Arial;
   width: 140px;
@@ -30,7 +34,7 @@
   text-shadow: 0px 1px 0px #810e05;
   background: linear-gradient(#c62d1f, #f24437);
 }
-.btn-primary:hover, .boton:hover {
+.flex-outer li button:hover, .boton:hover {
   background: linear-gradient(#f24437, #c62d1f);
   --bs-btn-hover-border-color: #d02718;
   text-decoration: underline;
@@ -92,7 +96,7 @@ body {
 }
 
 /* FIN DE CUERPO */
-/* INICIO DE LOGO*/
+/* INICIO DE LOGO BUBBA*/
 header {
   background: rgb(245, 245, 245);
   background: radial-gradient(circle, rgb(245, 245, 245) 19%, rgb(213, 36, 50) 54%, rgb(22, 70, 136) 85%);
@@ -117,8 +121,8 @@ header {
   box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.8);
 }
 
-/* FIN DE LOGO */
-/* INICIO DE MI BARRA DE NAVEGACION */
+/* FIN DE LOGO BUBBA */
+/* INICIO DE NAV */
 .nav.justify-content-center.miNavbar {
   background-color: rgb(10, 10, 10);
   --bs-navbar-padding-x: 20px;
@@ -143,7 +147,7 @@ header {
   padding: 0rem 1rem;
 }
 
-/* FIN DE MI BARRA DE NAVEGACION */
+/* FIN DE NAV */
 /* INICIO DE CLIMA Y NOTICIAS */
 .frames {
   display: flex;
@@ -177,15 +181,44 @@ header {
   padding: 0.5rem;
 }
 
-.mainContact {
-  flex: 70%;
-  margin-left: 13rem;
-  padding: 0;
-  font-size: x-large;
-  color: rgb(58, 175, 60);
-  text-shadow: 0 0 15px grey, 0 0 10px grey;
-  background-color: rgb(10, 10, 10);
-  padding: 20px;
+.main h1 {
+  text-align: center;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+.flex-inner li {
+  width: 100px;
+}
+
+.flex-inner {
+  justify-content: space-between;
+}
+
+.flex-outer li button {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
 }
 
 /* FIN DE FEED */
@@ -252,7 +285,7 @@ footer {
     display: none;
   }
 }
-/* BREAK 1 MOVILES */
+/* BREAK 1*/
 @media screen and (max-width: 767.98px) {
   .row, .navbar {
     flex-direction: column;
@@ -271,7 +304,7 @@ footer {
     display: none;
   }
 }
-/* BREAK 2 MOVILES */
+/* BREAK 2*/
 @media screen and (max-width: 575.98px) {
   .row, .navbar {
     flex-direction: column;
